@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - this program prints sices of various types on the computer
- * return: 0 (successfully executed)
+ * Return: 0 (successfully executed)
  */
 int main(void)
 {
@@ -16,5 +16,6 @@ printf("size of an int: %lu byte(s)\n", (unsigned long)sizeof(b));
 printf("size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
 printf("size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
 printf("size of a float: %lu byte(s)\n", (unsigned long)sizeof(e));
+
 return (0);
 }
