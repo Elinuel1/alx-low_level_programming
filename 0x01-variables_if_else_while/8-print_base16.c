@@ -5,10 +5,8 @@
  */
 int main(void)
 {
-	char basesixteen = '0';
-
-	putchar(basesixteen);
-	putchar(basesixteen + ':' - '0');
+	putchar('0');
+	putchar('9' + 6 + ('a' - 'f'));
 	putchar('\n');
 	return (0);
 }
