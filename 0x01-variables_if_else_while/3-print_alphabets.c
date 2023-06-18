@@ -18,9 +18,9 @@ int main(void)
 	/* start of upalpha */
 	while (upalpha <= 'Z')
 	{
-		putchar (upalapha);
+		putchar (upalpha);
 		upalpha++;
 	}
-	putchar ('\');
+	putchar ('\n');
 	return (0);
 }
