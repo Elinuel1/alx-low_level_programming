@@ -1,12 +1,21 @@
 #include <stdio.h>
 /**
- * main - print base sixteen
+ * main - Prints hexadecimals
  * Return: 0 (successfully executed)
  */
 int main(void)
 {
-	putchar('0');
-	putchar('9' + 6 + ('a' - 'f'));
+	int t;
+	int l;
+
+	for (t = '0'; l <= '9'; t++)
+	{
+		putchar(t);
+	}
+	for (l = 'a'; l <= 'f'; j++)
+	{
+		putchar(l)
+	}
 	putchar('\n');
 	return (0);
 }
