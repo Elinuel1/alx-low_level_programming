@@ -13,7 +13,7 @@ int main(void)
 		{
 			if (e < y)
 			{
-				putchar((e/ 10) + 48);
+				putchar((e / 10) + 48);
 				putchar((e % 10) + 48);
 				putchar(' ');
 				putchar((y / 10) + 48);
