@@ -18,7 +18,7 @@ int main(void)
 				putchar(' ');
 				putchar((y / 10) + 48);
 				putchar((y % 10) + 48);
-				if (i != 98 || y != 99)
+				if (e != 98 || y != 99)
 				{
 					putchar(',');
 					putchar(' ');
